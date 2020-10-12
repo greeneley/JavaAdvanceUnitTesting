@@ -63,6 +63,7 @@ public class testconnectdb {
         {  
     		System.out.println("Rec: "+ i + " has Name:" + ResVar.rows[i].doc.card.cardname);
     		System.out.println("Rec: "+ i + " has Role:" + ResVar.rows[i].doc.card.cardrole);
+    		
         }
    
     	//update old record
@@ -75,11 +76,11 @@ public class testconnectdb {
     	//insert new record
     	//build obj new record
     	cardobj = new HashMap<String, Object>();
-    	cardobj.put("cardname", "john2");
-    	cardobj.put("cardrole", "mod2");
+    	cardobj.put("cardname", "toto");
+    	cardobj.put("cardrole", "toto");
     	map = new HashMap<String, Object>();
     	map.put("card", cardobj);
-    	//couchdbconnect.couchdbclientJUDBsave(map);
+    	couchdbconnect.couchdbclientJUDBsave(map);
 	   
     	//Testcase PASS/FAIL
     	//check connection

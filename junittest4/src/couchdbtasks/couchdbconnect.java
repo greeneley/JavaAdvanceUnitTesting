@@ -39,5 +39,8 @@ public class couchdbconnect {
 	public static void couchdbclientJUDBsave(Map<String, Object> map) {
 		couchdbclientJUDB.save(map);	
 	}
-
+	
+	public static void couchdbclientJUDBsearch(String key) {
+//		couchdbclientJUDB.save(map);	
+	}
 }
