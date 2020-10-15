@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
-			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/easymock-4.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/commons-lang3-3.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib_all/selenium-server-standalone-3.11.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/btf-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/disruptor-3.4.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/engine.io-client-1.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/gson-2.8.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/jackson-annotations-2.11.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/jackson-core-2.11.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/jackson-coreutils-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/jackson-databind-2.11.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/java-uuid-generator-4.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/json-schema-core-1.2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/json-schema-validator-2.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/junit-4.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/lightcouch-0.2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/mockserver-client-java-5.11.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/mockserver-core-5.11.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/mockserver-netty-5.11.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/netty-all-4.1.52.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/selenium-server-standalone-3.11.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/slf4j-api-1.7.30.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/junittest4_oct11/junittest4_oct11/lib/slf4j-simple-1.7.30.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
